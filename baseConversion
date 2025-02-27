@@ -1,0 +1,4 @@
+baseConversion(String number,int startBase,int endBase)
+{
+    return Integer.toString(Integer.parseInt(number,startBase),endBase);
+}
